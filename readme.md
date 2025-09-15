@@ -1,2 +1,2 @@
-# personal portfolio for Lilly Amond.
-
+# personal portfolio
+This is the personal portfolio of Lilly Amond.
