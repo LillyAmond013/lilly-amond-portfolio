@@ -1,0 +1,8 @@
+title: My portfolio
+name: Lilly Amond
+email: lillyRHA21A@outlook.com
+
+Collections:
+  design:
+    output: true
+    permalink: /:collection/:path/
