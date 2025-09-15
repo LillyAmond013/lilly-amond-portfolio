@@ -1,2 +1,206 @@
-/* CSS Document */
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+
+/*
+.new-rocker-regular {
+  font-family: "New Rocker", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+*/
+
+
+header {	
+padding-bottom: 100px;
+}
+
+ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: right;
+border-right: 1px solid #bbb;
+}
+
+li a {
+  display: block;
+  color: mediumpurple;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: white;
+}
+
+body {
+  background-color: black;
+	color: white;
+}
+
+main {
+	width: 900px;
+	margin: 0 auto;
+}
+
+
+h1,h2,h3,h4,h5, h6{
+	font-family: "New Rocker", system-ui;
+	font-weight: 400;
+	font-style: normal;
+	color: white;
+}
+
+.typeface-css {
+	background-color:mediumpurple;
+	color:black;
+	font-weight: 400;
+}
+
+.section-heading{
+	border-bottom: 2px solid white;
+	padding-bottom: 10px;
+}
+
+p {
+	font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+	colour: white;
+}
+
+.outer_wrapper{
+	display: flex;
+	
+}
+
+
+.inner{
+	width: 50%;
+	padding: 10px;
+}
+
+
+.blackletter-copy{
+	font-family: "New Rocker", system-ui;
+	font-weight: 400;
+	font-style: normal;
+	color: white;
+	
+}
+
+
+.helvetica-heading{
+	font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+	colour: white;
+}
+
+.helvetica-copy {
+	color: white;
+}
+
+.colour-1{
+	background-color: #5f5a9d;
+	border: 2px solid white;
+	font-optical-sizing: auto;
+	width: 25%;
+	padding: 25px;
+}
+
+.colour-2 {
+	background-color: #a5a9c4;
+	border: 2px solid white;
+	font-optical-sizing: auto;
+	width: 25%;
+	padding: 25px;
+}
+
+.colour-3{
+	background-color: mediumpurple;
+	border: 2px solid white;
+	font-optical-sizing: auto;
+	width: 25%;
+	padding: 25px;
+}
+
+.colour-4 {
+	background-color: #cce0ff;
+	border: 2px solid white;
+	font-optical-sizing: auto;
+	width: 25%;
+	padding: 25px;
+}
+
+.colour-5 {
+	background-color: #d9d9d9;
+	border: 2px solid white;
+	font-optical-sizing: auto;
+	width: 25%;
+	padding: 25px;
+}
+
+.colour-6 {
+	background-color: #000000;
+	border: 2px solid white;
+	font-optical-sizing: auto;
+	width: 25%;
+	padding: 25px;
+}
+
+.colour-7 {
+	background-color: #ffffff;
+	color: black;
+	border: 2px solid white;
+	font-optical-sizing: auto;
+	width: 25%;
+	padding: 25px;
+}
+
+.colour-8{
+	background-color: #c145fd;
+	border: 2px solid white;
+	font-optical-sizing: auto;
+	width: 25%;
+	padding: 25px;
+	
+}
+
+.purple-button {
+	background-color: mediumpurple;
+}
+
+.dark-blue-button {
+	background-color: #5f5a9d;
+}
+
+.light-blue-button {
+	background-color: #cce0ff;
+}
