@@ -22,7 +22,8 @@
 
 
 header {	
-padding-bottom: 100px;
+	
+	text-align: center;
 }
 
 ul {
@@ -38,7 +39,7 @@ list-style-type: none;
 
 li {
   float: right;
-border-right: 1px solid #bbb;
+border-right: 1px solid #cce0ff;
 }
 
 li a {
@@ -50,7 +51,7 @@ li a {
 }
 
 li a:hover {
-  background-color: white;
+  background-color: #cce0ff;
 }
 
 body {
@@ -68,7 +69,10 @@ h1,h2,h3,h4,h5, h6{
 	font-family: "New Rocker", system-ui;
 	font-weight: 400;
 	font-style: normal;
-	color: white;
+	color: #cce0ff;
+}
+h1 {
+	text-align: center;
 }
 
 .typeface-css {
@@ -78,7 +82,7 @@ h1,h2,h3,h4,h5, h6{
 }
 
 .section-heading{
-	border-bottom: 2px solid white;
+	border-bottom: 2px solid #9370db;
 	padding-bottom: 10px;
 }
 
@@ -94,13 +98,12 @@ p {
 
 .outer_wrapper{
 	display: flex;
-	
 }
 
 
 .inner{
 	width: 50%;
-	padding: 10px;
+	padding: 5px;
 }
 
 
@@ -119,7 +122,7 @@ p {
   font-weight: 300;
   font-style: normal;
   font-variation-settings:
-    "wdth" 100;
+    "width" 100;
 	colour: white;
 }
 
@@ -128,7 +131,7 @@ p {
 }
 
 .colour-1{
-	background-color: #5f5a9d;
+	background-color: #c145fd;
 	border: 2px solid white;
 	font-optical-sizing: auto;
 	width: 25%;
@@ -136,71 +139,25 @@ p {
 }
 
 .colour-2 {
-	background-color: #a5a9c4;
+	background-color: #cce0ff;
 	border: 2px solid white;
 	font-optical-sizing: auto;
-	width: 25%;
+	width: 30%;
 	padding: 25px;
 }
 
 .colour-3{
-	background-color: mediumpurple;
+	background-color: #9370db;
 	border: 2px solid white;
 	font-optical-sizing: auto;
-	width: 25%;
+	width: 30%;
 	padding: 25px;
 }
 
 .colour-4 {
-	background-color: #cce0ff;
+	background-color:#5f5a9d;
 	border: 2px solid white;
 	font-optical-sizing: auto;
-	width: 25%;
+	width: 30%;
 	padding: 25px;
-}
-
-.colour-5 {
-	background-color: #d9d9d9;
-	border: 2px solid white;
-	font-optical-sizing: auto;
-	width: 25%;
-	padding: 25px;
-}
-
-.colour-6 {
-	background-color: #000000;
-	border: 2px solid white;
-	font-optical-sizing: auto;
-	width: 25%;
-	padding: 25px;
-}
-
-.colour-7 {
-	background-color: #ffffff;
-	color: black;
-	border: 2px solid white;
-	font-optical-sizing: auto;
-	width: 25%;
-	padding: 25px;
-}
-
-.colour-8{
-	background-color: #c145fd;
-	border: 2px solid white;
-	font-optical-sizing: auto;
-	width: 25%;
-	padding: 25px;
-	
-}
-
-.purple-button {
-	background-color: mediumpurple;
-}
-
-.dark-blue-button {
-	background-color: #5f5a9d;
-}
-
-.light-blue-button {
-	background-color: #cce0ff;
 }
